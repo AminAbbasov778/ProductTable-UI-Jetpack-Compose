@@ -10,7 +10,6 @@
 |------------------|
 | ![screenshot](screenshots/product_table.png) |
 
-> *(Make sure to place your screenshot under `screenshots/product_table.png` path.)*
 
 ---
 
@@ -43,24 +42,25 @@
 The project follows the Clean Architecture pattern, split into three main layers:
 
 ├── data
-│ ├── model // Data classes (e.g., Product)
-│ ├── repository // Repository implementations
-│ └── mapper // Data-to-Domain model mapping
+│   ├── model         // Data classes (e.g., Product)
+│   ├── repository    // Repository implementations
+│   └── mapper        // Data-to-Domain model mapping
 │
 ├── domain
-│ ├── model // Domain models (e.g., ProductModel)
-│ ├── interfaces // Repository interfaces
-│ └── usecases // Business logic (use cases)
+│   ├── model         // Domain models (e.g., ProductModel)
+│   ├── interfaces    // Repository interfaces
+│   └── usecases      // Business logic (use cases)
 │
 ├── presentation
-│ ├── viewmodels // ViewModel classes for UI state
-│ ├── screens // Composables and Activities
-│ ├── mapper // Domain-to-UI model mapping
-│ ├── components // Reusable UI components
-│ └── model // UI models (e.g., ProductUi)
+│   ├── viewmodels    // ViewModel classes for UI state
+│   ├── screens       // Composables and Activities
+│   ├── mapper        // Domain-to-UI model mapping
+│   ├── components    // Reusable UI components
+│   └── model         // UI models (e.g., ProductUi)
 │
 └── di
-└── Module.kt // Dependency injection with Hilt   
+    └── Module.kt     // Dependency injection with Hilt
+
 
 
 ---
