@@ -8,7 +8,7 @@
 
 | Product Table UI |
 |------------------|
-| ![screenshot](Screenshot/Screenshot_20250724-201046.png) |
+| <img src="Screenshot/Screenshot_20250724-184949.png" width="300" height="400" />|
 
 
 ---
